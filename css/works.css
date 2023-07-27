@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 60px;
+    padding-top: 27px;
+    list-style: none;
+}
+header nav ul li{
+    margin-left: 33px;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 29px;
+text-align: right;
+color: #000000;
+}
+footer{
+    padding-top: 134px;
+    padding-bottom: 54px;
+}
+footer .foot_flex{
+    display: flex;
+    justify-content: center;
+    max-width: 852px;
+    margin: auto;
+    margin-bottom: 26px;
+}
+footer .foot_flex a{
+    margin-right: 32px;
+}
+footer  p{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+color: #21243D;
+position: relative;
+right: 15px;
+}
+.third{
+    background: #FFFFFF;
+    padding-top: 90px;
+}
+.third .priority{
+   max-width: 852px;
+   margin: auto;
+}
+.third .priority h1{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+color: #21243D;
+margin-bottom: 30px;
+}
+.third .priority .bonjur{
+max-width: 840px;
+display: flex;
+margin-bottom: 15px;
+width: 100%;
+}
+.third .priority .photo{
+    margin-right: 28px;
+}
+.third .priority .bonjur .describtion .text_connect{
+    display: flex;
+}
+.describtion .text_connect .rainbow{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+color: #FFFFFF;
+background: #142850;
+border-radius: 16px;
+padding: 0px 2px;
+margin-right: 36px;
+margin-bottom: 25px;
+}
+.third .priority .bonjur .describtion h3{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 44px;
+color: #21243D;
+margin-bottom: 20px;
+}
+.third .priority .bonjur .describtion p{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #21243D;
+margin-bottom: 15px;
+}
+.describtion .text_connect .em{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: #8695A4;
+}
+hr{
+    margin-bottom: 15px;
+}

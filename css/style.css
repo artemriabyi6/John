@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 60px;
+    padding-top: 27px;
+    list-style: none;
+}
+header nav ul li{
+    margin-left: 33px;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 29px;
+text-align: right;
+color: #000000;
+
+}
+.wrapper{
+    max-width: 852px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_banner{
+    padding-top: 160px;
+    padding-bottom: 70px;
+
+}
+.main_banner .text h1{
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 60px;
+color: #21243D;
+margin-bottom: 40px;
+}
+
+.main_banner .text p{
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #21243D;
+max-width: 497px;
+margin-bottom: 47px;
+}
+
+.main_banner .text a{
+    text-decoration: none;
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 29px;
+color: #FFFFFF;
+background: #FF6464;
+border-radius: 2px;
+padding: 13px 20px;
+}
+.second{
+ background: #EDF7FA;
+ padding: 32px 0px;
+}
+.second .container{
+    max-width: 852px;
+    margin: auto;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.second .inline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 852px;
+    margin: auto;
+}
+
+.container p{
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 60px;
+color: #21243D;
+}
+
+.container a{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #00A8CC;
+text-decoration: none;
+}
+
+.second article{
+background: #FFFFFF;
+max-width: 361px;
+padding: 24px 22px;
+}
+.second article .straight{
+    max-width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.second article h2{
+max-width: 341px;
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 38px;
+color: #21243D;
+margin-bottom: 30px;
+}
+.second article .straight p{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+color: #21243D;
+}
+.second article p{
+max-width: 341px;
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #21243D;
+}
+.third{
+    background: #FFFFFF;
+    padding-top: 20px;
+}
+.third .priority{
+   max-width: 852px;
+   margin: auto;
+}
+.third .priority h5{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 60px;
+color: #21243D;
+margin-bottom: 22px;
+}
+.third .priority .bonjur{
+max-width: 840px;
+display: flex;
+margin-bottom: 15px;
+}
+.third .priority .photo{
+    margin-right: 28px;
+}
+.third .priority .bonjur .describtion .text_connect{
+    display: flex;
+}
+.describtion .text_connect .rainbow{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+color: #FFFFFF;
+background: #142850;
+border-radius: 16px;
+padding: 0px 2px;
+margin-right: 36px;
+margin-bottom: 25px;
+}
+.third .priority .bonjur .describtion h3{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 44px;
+color: #21243D;
+margin-bottom: 20px;
+}
+.third .priority .bonjur .describtion p{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #21243D;
+margin-bottom: 15px;
+}
+.describtion .text_connect .em{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: #8695A4;
+}
+hr{
+    margin-bottom: 15px;
+}
+footer{
+    padding-top: 134px;
+    padding-bottom: 54px;
+}
+footer .foot_flex{
+    display: flex;
+    justify-content: center;
+    max-width: 852px;
+    margin: auto;
+    margin-bottom: 26px;
+}
+footer .foot_flex a{
+    margin-right: 32px;
+}
+footer  p{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+color: #21243D;
+position: relative;
+right: 15px;
+}
+.interactions{
+    padding-top: 106px;
+}
+.interactions .main_event{
+max-width: 681px;
+margin: auto;
+}
+.interactions .main_event .secondary{
+    margin-bottom: 40px;
+}
+.interactions .main_event h1{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 60px;
+color: #21243D;
+margin-bottom: 70px;
+}
+.interactions .main_event .secondary h3{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 44px;
+color: #21243D;
+margin-bottom: 16px;
+}
+.secondary .prom{
+    display: flex;
+    margin-bottom: 15px;
+}
+.secondary .prom .feb{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: #21243D;
+text-decoration: none;
+margin-right: 50px;
+}
+.secondary .prom .express{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: #8695A4;
+text-decoration: none;
+}
+.interactions .main_event .secondary p{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #21243D;
+max-width: 620px;
+}
