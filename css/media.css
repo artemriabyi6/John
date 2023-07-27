@@ -36,10 +36,17 @@ margin-bottom: 30px;
         width: 100%;
         top: -100%;
         transition: 0.5s ease-in-out;
+
     }
      header nav ul{
         display: block;
         text-align: center;
+        position: relative;
+        right: 65px;
+     }
+     header nav.active ul{
+        position: relative;
+        right: 65px;
      }
       header nav ul li{
         margin-right: 0;
