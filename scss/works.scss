@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap');
-@import url(../scss/works.scss);
-@import url(../scss/blog.scss);
 
 $font: 'Heebo', sans-serif;
 
@@ -37,7 +35,6 @@ $font: 'Heebo', sans-serif;
 .container{
     max-width: 868px;
     margin: auto;
-    padding: 0 10px;
 }
 
 header{
@@ -50,7 +47,6 @@ header{
     .header_logo{
     max-width: 70px;
     max-height: 70px;
-    margin-left: 12px;
        img{
         display: block;
         max-width: 100%;
@@ -84,133 +80,16 @@ header{
     }
 }
 
-.main_banner{
-    background: #FFF;
-    padding: 140px 0 70px 0;
-    .container{
-        display: flex;
-        justify-content: space-between;
-        .main_description{
-            max-width: 497px;
-            h1{
-                color: var(--dark-color, #21243D);
-                font-family: $font;
-                font-size: 44px;
-                font-style: normal;
-                font-weight: 700;
-                line-height: 60px;
-                margin-bottom: 40px;
-            }
-            p{
-                color: var(--dark-color, #21243D);
-                font-family: $font;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: normal;
-                margin-bottom: 47px;
-            }
-            a{
-                text-decoration: none;
-                color: #FFF;
-                font-family: $font;
-                font-size: 20px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: normal;
-                padding: 13px 20px;
-                border-radius: 2px;
-                background: var(--primary, #FF6464);
-                transition: 0.2s ease-in-out;
-                &:hover{
-                    
-                    background-color: cadetblue;
-                }
-            }
-        }
-    }
-}
-
-.posts{
-    background: #EDF7FA;
-    padding: 39px 0;
-    .container{
-        .links{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            .Recent-posts{
-                color: var(--dark-color, #21243D);
-                font-family: $font;
-                font-size: 22px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 60px; 
-                padding: 0px;
-                text-decoration: none;
-                transition: 0.2s ease-in;
-                &:hover{
-                    text-decoration: underline;
-                }
-                }
-            .View-all{
-                color: var(--secondry, #00A8CC);
-                text-align: right;
-                font-family: $font;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: normal;
-                text-decoration: none;
-                transition: 0.2s ease-in;
-                &:hover{
-                   text-decoration: underline;
-                }
-            }
-        }
-        .article-flex{
-            display: flex;
-            justify-content: space-between;
-            article{
-                    background-color: #FFF;
-                    padding: 22px 15px 22px 22px;
-                    max-width: 418px;
-                    h4{
-                    margin-bottom: 20px;
-                    color: var(--dark-color, #21243D);
-                    font-family: $font;
-                    font-size: 26px;
-                    font-style: normal;
-                    font-weight: 700;
-                    line-height: normal;
-                    margin-bottom: 20px;
-                     }
-                    span{
-                    display: inline-block;
-                    margin-right: 50px;
-                    margin-bottom: 20px;
-                    &:last-of-type{
-                        margin-right: 0;
-                        }
-                    }
-                    p{
-                    max-width: 343px;
-                    }
-            }
-        }
-    }
-}
-
 
 .Featured-works{
-    padding: 20px 0 0 0;
+    padding: 90px 0 0 0;
     .container{
         h4{
             color: var(--dark-color, #21243D);
-            font-family: $font;
-            font-size: 22px;
+            font-family: Heebo;
+            font-size: 44px;
             font-style: normal;
-            font-weight: 400;
+            font-weight: 900;
             line-height: 60px;
             margin-bottom: 10px;
         }
@@ -256,6 +135,16 @@ header{
     }
 }
 
+
+
+
+
+
+
+
+
+
+
 footer{
     padding: 50px 0;
    .container{
@@ -292,4 +181,3 @@ footer{
     }
    }
 }
-
